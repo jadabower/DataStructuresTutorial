@@ -20,8 +20,10 @@
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [mailto in markdown (sharepoint)](https://sharepoint.stackexchange.com/questions/279072/adding-mailto-in-markdown-element-on-sharepoint-site)
+- [Information on Stacks (CSE 212 Readings)](https://byui-cse.github.io/cse212-csharp/lesson03/prepare)
+- [Information on Linked Lists (CSE 212 Readings)](https://byui-cse.github.io/cse212-csharp/lesson07/prepare)
+- [Information on Binary Search Trees (CSE 212 Readings)](https://byui-cse.github.io/cse212-csharp/lesson09/prepare)
 
 # Future Work
 

@@ -1,0 +1,14 @@
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\bin\Debug\net7.0\ds1-example.exe
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\bin\Debug\net7.0\ds1-example.deps.json
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\bin\Debug\net7.0\ds1-example.runtimeconfig.json
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\bin\Debug\net7.0\ds1-example.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\bin\Debug\net7.0\ds1-example.pdb
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\ds1-example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\ds1-example.AssemblyInfoInputs.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\ds1-example.AssemblyInfo.cs
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\ds1-example.csproj.CoreCompileInputs.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\ds1-example.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\refint\ds1-example.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\ds1-example.pdb
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\ds1-example.genruntimeconfig.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-example\obj\Debug\net7.0\ref\ds1-example.dll

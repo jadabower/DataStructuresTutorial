@@ -1,0 +1,14 @@
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\bin\Debug\net7.0\ds1-problem-solution.exe
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\bin\Debug\net7.0\ds1-problem-solution.deps.json
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\bin\Debug\net7.0\ds1-problem-solution.runtimeconfig.json
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\bin\Debug\net7.0\ds1-problem-solution.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\bin\Debug\net7.0\ds1-problem-solution.pdb
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\ds1-problem-solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\ds1-problem-solution.AssemblyInfoInputs.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\ds1-problem-solution.AssemblyInfo.cs
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\ds1-problem-solution.csproj.CoreCompileInputs.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\ds1-problem-solution.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\refint\ds1-problem-solution.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\ds1-problem-solution.pdb
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\ds1-problem-solution.genruntimeconfig.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds1-problem-solution\obj\Debug\net7.0\ref\ds1-problem-solution.dll

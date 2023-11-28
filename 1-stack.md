@@ -29,6 +29,34 @@ the order that you added it. This is also useful for keeping track of where
 you are in the stack (which is often used in programming for keeping track of
 operations, and order in which to execute code).
 
+## Stack of Books Example
+
+Let's use a stack of books to describe how Stacks in programming work.
+
+Say you had a stack of books. At first, the stack is empty.
+
+![image of the empty stack](images/emptyStack.PNG)
+
+You can add a book to the top of the stack. This is like the `Push` method of the Stack class
+in C#.
+
+![image of the stack with one book](images/oneBookStack.PNG)
+
+You can continue adding books to the top of the stack for as long as you want.
+
+![image of full stack](images/fullStack.PNG)
+
+To remove a book from the stack, you can use the `Pop` method.
+
+![image of stack with one less book](images/oneBookRemovedStack.PNG)
+
+To reverse the stack, we just remove the book from the top of the stack and add it to the top
+of the reversed stack.
+
+![image of reversed stack](images/reversedStack.PNG)
+
+To watch a video of the book example click [here](https://youtu.be/br35tJmDHTg).
+
 ## Methods
 
 ### Push
@@ -127,33 +155,6 @@ Stack methods in C#, click [here](https://www.geeksforgeeks.org/c-sharp-stack-cl
 | Push       | O(1)           |
 | Pop        | O(1)           |
 | Peek       | O(1)           |
-
-## Stack of Books Example
-Let's use a stack of books to describe how Stacks in programming work. 
-
-Say you had a stack of books. At first, the stack is empty.
-
-![image of the empty stack](images/emptyStack.PNG)
-
-You can add a book to the top of the stack. This is like the `Push` method of the Stack class
-in C#.
-
-![image of the stack with one book](images/oneBookStack.PNG)
-
-You can continue adding books to the top of the stack for as long as you want.
-
-![image of full stack](images/fullStack.PNG)
-
-To remove a book from the stack, you can use the `Pop` method.
-
-![image of stack with one less book](images/oneBookRemovedStack.PNG)
-
-To reverse the stack, we just remove the book from the top of the stack and add it to the top
-of the reversed stack. 
-
-![image of reversed stack](images/reversedStack.PNG)
-
-To watch a video of the book example click [here](https://youtu.be/br35tJmDHTg).
 
 ## Code Example - Recently Added
 

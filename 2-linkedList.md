@@ -8,18 +8,18 @@ The Linked List data structure is slightly different to most other data structur
 Usually, data structures are stored all in one location in memory, with a starting and an ending
 location in the memory allocated. That is not how Linked Lists work. Each item in a Linked 
 List (called a node) is in a random space in memory. So for the program to keep track of all
-the different nodes, the Linked List class has two member Variables: Head (in C# it's called 
-"First"), and Tail (in C# it's called "Last"). Each of these member variables points to a 
-location in memory with a node. The Head variable points to the first node in the Linked List,
-and the Tail variable points to the last node in the Linked List. Then within the node class, 
+the different nodes, the Linked List class has two member Variables: a head (in C# it's called 
+`First`), and a tail (in C# it's called `Last`). Each of these member variables points to a 
+location in memory with a node. The head points to the first node in the Linked List,
+and the tail points to the last node in the Linked List. Then within the node class, 
 each node contains the node's value, a pointer to the previous node, and a pointer to the 
-next node (in C#, the variables are: Value, Previous, and Next). That way, all the Linked List needs
+next node (in C#, the variables are: `Value`, `Previous`, and `Next`). That way, all the Linked List needs
 to know is where to start, and where to end, and each individual node will tell you what came
-before it (if is not the Head, which has `null` for it's Value), and what comes next 
-(if it is not the Tail). This is how Linked Lists work and how we can move forward and 
+before it (if is not the First, or head, which has `null` for it's Value), and what comes next 
+(if it is not the Last, or tail). This is how Linked Lists work and how we can move forward and 
 backward through them incredibly easily.
 
-Because of how Linked Lists are set up, with just a Head and Tail node, this data structure is
+Because of how Linked Lists are set up, with just head and tail nodes, this data structure is
 very easy for the computer to add to and remove from (as far as memory goes), because all it
 takes is adding or removing a single node in memory, and changing the pointers in the Linked
 List object. This is much more efficient that the regular List class because that one creates
@@ -30,7 +30,7 @@ than creating a new Array if you have to use huge amounts of data.
 
 For this same reason, adding and removing from the end of a Linked List is very efficient 
 to implement. The only thing that's needed is that you create a new node (or to remove,
-take the Tail's Previous node), and then adjust the Head or Tail pointers accordingly. The Big-O
+take the tail's Previous node), and then adjust the head or tail pointers accordingly. The Big-O
 for this would only be O(1), from both the beginning and the end, where it was O(n) to add or
 remove from the beginning of a List.
 
@@ -38,6 +38,8 @@ To create a new Linked List in C#, we must first include the correct collection,
 it's own does not include a LinkedList class. So at the top of the program, type:
 ```c#
 using System;
+// Some IDE's might just have the second line here
+// and say that it assumes System.
 using System.Collections.Generic;
 ```
 
@@ -48,6 +50,50 @@ LinkedList<int> myLinkedList = new();
 
 Now, you may use any of the methods described below to use your Linked List however you like!
 
+## Paper Doll Example
+
+Let's use for an example of Linked Lists, a string of paper dolls. Each doll in the string
+is a node. The doll on the very left is the head, or `First`, and the one on the right is 
+the tail, or `Last`. Each node has `Value` (in this case, their name), a pointer to the 
+`Previous` node (the hand on the left), and a pointer to the `Next` node (the hand on 
+the right).
+
+![original list](images/originalList.jpg)
+
+Let's use the `AddFirst("Robin")` method to add `Robin` as the new head. This makes it
+so Abigail's Previous is now Robin, Robin's Next is Abigail, and Robin's Previous is null.
+
+![add first](images/addFirst.jpg)
+
+Now let's add `Haley` as the new tail using the `AddLast("Haley")` method. This makes it
+so Linus' Next is now Haley, Haley's Previous is Linus, and Haley's Next is null.
+
+![add last](images/addLast.jpg)
+
+Let's say `Lewis` wanted to squeeze in after `Harvey`. If we wanted to do this in C#,
+we would use `AddAfter(HarveyNode, "Lewis")`. Using this, we can see that Harvey's next
+is now Lewis, Lewis' Next is Sebastian, Lewis' Previous is Harvey, and Sebastian's Previous is
+Lewis. We inserted Lewis in right after Harvey.
+
+![add after](images/addAfter.jpg)
+
+Now let's remove Robin from the head, so that Abigail is the head again. Using the
+`RemoveFirst()` method, we can remove the first node. This makes it so Abigail's Previous
+is again null.
+
+![remove first](images/removeFirst.jpg)
+
+Let's remove Haley from the tail, so that Linus is the tail again. Using the
+`RemoveLast()` method, we can remove the last node. This makes it so Linus' Next
+is again null.
+
+![remove last](images/removeLast.jpg)
+
+To remove a specific person from the lineup, we can use the `Remove()` method. Let's
+remove Sebastian. This makes it so Lewis and Elliot's Next and Previous are connected.
+
+![remove](images/remove.jpg)
+
 ## Methods
 
 ### AddFirst
@@ -55,9 +101,9 @@ Now, you may use any of the methods described below to use your Linked List howe
 The `AddFirst(value)` method of the Linked List class adds a value to the front of the Linked
 List. The way it does this is by:
 1. Creating a new node with the given `value` as it's `Value`.
-2. Making the new node point to the current Head of the Linked List as the `Next` node.
-3. Making the current Head point to the new node as the `Previous` node.
-4. Changing the Head to point to the new node.
+2. Making the new node point to the current `First` of the Linked List as the `Next` node.
+3. Making the current head point to the new node as the `Previous` node.
+4. Changing the `First` to point to the new node.
 
 To use the AddFirst method, simply create a Linked List, and call the method on it with
 whatever value you would like to add to the front of the list:
@@ -81,9 +127,9 @@ of any of the following nodes, it just adds a node and changes some member varia
 The `AddLast(value)` method of the Linked List class adds a value to the back of the Linked
 List. The way it does this is by:
 1. Creating a new node with the given `value` as it's `Value`.
-2. Making the new node point to the current Tail of the Linked List as the `Previous` node.
-3. Making the current Tail point to the new node as the `Next` node.
-4. Changing the Tail to point to the new node.
+2. Making the new node point to the current `Last` of the Linked List as the `Previous` node.
+3. Making the current tail point to the new node as the `Next` node.
+4. Changing the `Last` to point to the new node.
 
 To use the AddLast method, simply create a Linked List, and call the method on it with
 whatever value you would like to add to the front of the list:
@@ -124,11 +170,14 @@ myLinkedList.AddFirst(2);
 // myLinkedList: {2, 1, 0}
 
 // Sets a variable to point to the second node in myLinkedList
-LinkedListNode<int> nodeToAddAfter = myLinkedList.Head.Next
+LinkedListNode<int> nodeToAddAfter = myLinkedList.head.Next
 
 myLinkedList.AddAfter(nodeToAddAfter, 42);
 // myLinkedList: {2, 1, 42, 0}
 ```
+
+Typically for this method, we would need to iterate through the Linked List to find the specific
+node we want to use, rather than just choosing a static spot to insert.
 
 The Big-O for this method is O(n) because the method must iterate through the
 Linked List to find the node to insert after.
@@ -137,8 +186,8 @@ Linked List to find the node to insert after.
 
 The `RemoveFirst()` method of the Linked List class removes the value at the front of the Linked
 List. The way it does this is by:
-1. Changing the `Previous` value of the second node (`Head.Next`) to `null`.
-2. Changing the Head to point to the new Head (the second node: `Head.Next`).
+1. Changing the `Previous` value of the second node (`myLinkedList.First.Next`) to `null`.
+2. Changing the `First` to point to the new head (the second node: `myLinkedList.First.Next`).
 
 To use the RemoveFirst method, simply create a Linked List, populate it, and then remove the
 first item in the Linked List:
@@ -162,8 +211,8 @@ of any of the previous nodes, it just removes a node and changes some member var
 
 The `RemoveLast()` method of the Linked List class removes the value at the end of the Linked
 List. The way it does this is by:
-1. Changing the `Next` value of the second to last node (`Tail.Previous`) to `null`.
-2. Changing the Tail to point to the new Tail (the second  to last node: `Tail.Previous`).
+1. Changing the `Next` value of the second to last node (`myLinkedList.Last.Previous`) to `null`.
+2. Changing the `Last` to point to the new tail (the second  to last node: `myLinkedList.Last.Previous`).
 
 To use the RemoveLast method, simply create a Linked List, populate it, and then remove the
 last item in the Linked List:
@@ -212,6 +261,11 @@ myLinkedList.Remove(1);
 The Big-O for this method is O(n) because the method must iterate through the Linked List to 
 find the first instance of the given value.
 
+### Others
+
+There are a few other non-essential methods in Linked Lists. For a more comprehensive list,
+visit [here](https://www.geeksforgeeks.org/c-sharp-linkedlist-class/)
+
 ## Big-O Efficiency Chart
 
 | **Method**  | **Efficiency** |
@@ -222,49 +276,6 @@ find the first instance of the given value.
 | RemoveFirst | O(1)           |
 | RemoveLast  | O(1)           |
 | Remove      | O(n)           |
-
-## Paper Doll Example
-
-Let's use for an example of Linked Lists, a string of paper dolls. Each doll in the string
-is a node. The doll on the very left is the Head, and the one on the right is the Tail.
-Each node has `Value` (in this case, their name), a pointer to the `Previous` node 
-(the hand on the left), and a pointer to the `Next` node (the hand on the right).
-
-![original list](images/originalList.jpg)
-
-Let's use the `AddFirst("Robin")` method to add `Robin` as the new Head. This makes it 
-so Abigail's Previous is now Robin, Robin's Next is Abigail, and Robin's Previous is null.
-
-![add first](images/addFirst.jpg)
-
-Now let's add `Haley` as the new Tail using the `AddLast("Haley")` method. This makes it
-so Linus' Next is now Haley, Haley's Previous is Linus, and Haley's Next is null. 
-
-![add last](images/addLast.jpg)
-
-Let's say `Lewis` wanted to squeeze in after `Harvey`. If we wanted to do this in C#,
-we would use `AddAfter(HarveyNode, "Lewis")`. Using this, we can see that Harvey's next
-is now Lewis, Lewis' Next is Sebastian, Lewis' Previous is Harvey, and Sebastian's Previous is
-Lewis. We inserted Lewis in right after Harvey. 
-
-![add after](images/addAfter.jpg)
-
-Now let's remove Robin from the Head, so that Abigail is the Head again. Using the
-`RemoveFirst()` method, we can remove the first node. This makes it so Abigail's Previous
-is again null.
-
-![remove first](images/removeFirst.jpg)
-
-Let's remove Haley from the Tail, so that Linus is the Tail again. Using the
-`RemoveLast()` method, we can remove the last node. This makes it so Linus' Next
-is again null.
-
-![remove last](images/removeLast.jpg)
-
-To remove a specific person from the lineup, we can use the `Remove()` method. Let's
-remove Sebastian. This makes it so Lewis and Elliot's Next and Previous are connected.
-
-![remove](images/remove.jpg)
 
 ## Code Example - Play Next
 

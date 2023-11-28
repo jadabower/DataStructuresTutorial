@@ -28,7 +28,8 @@ of the code.}
 - [Information on Binary Search Trees (CSE 212 Readings)](https://byui-cse.github.io/cse212-csharp/lesson09/prepare)
 - [Stack methods (geeksforgeeks)](https://www.geeksforgeeks.org/c-sharp-stack-class/)
 - [ChatGPT conversation](https://chat.openai.com/c/bc58560e-1f79-4bbc-aaf9-b6b1d2faab5b)
-- 
+- [Linked List methods (geeksforgeeks)](https://www.geeksforgeeks.org/c-sharp-linkedlist-class/)
+- [Inspiration repo](https://github.com/byui-cse212/final-project-jadabower)
 
 # Future Work
 

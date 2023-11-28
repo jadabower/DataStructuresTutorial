@@ -1,5 +1,7 @@
 # Stack
 
+[Back to Home](0-welcome.md)
+
 ## Overview
 
 A Stack is a very useful data structure because it allows us to keep
@@ -131,20 +133,20 @@ Let's use a stack of books to describe how Stacks in programming work.
 
 Say you had a stack of books. At first, the stack is empty.
 
-![image of the empty stack](/images/emptyStack.PNG)
+![image of the empty stack](images/emptyStack.PNG)
 
 You can add a book to the top of the stack. This is like the `Push` method of the Stack class
 in C#.
 
-![image of the stack with one book](/images/oneBookStack.PNG)
+![image of the stack with one book](images/oneBookStack.PNG)
 
 You can continue adding books to the top of the stack for as long as you want.
 
-![image of full stack](/images/fullStack.PNG)
+![image of full stack](images/fullStack.PNG)
 
 To remove a book from the stack, you can use the `Pop` method.
 
-![image of stack with one less book](/images/oneBookRemovedStack.PNG)
+![image of stack with one less book](images/oneBookRemovedStack.PNG)
 
 To reverse the stack, we just remove the book from the top of the stack and add it to the top
 of the reversed stack. 
@@ -215,13 +217,13 @@ My Happy Playlist: {The Happiest Days of Our Lives, We Were Happy (Taylor's Vers
 What an awesome program! This makes it clear how useful Stacks are at keeping information 
 in order!
 
-If you want to run this program for yourself, here is the [solution code](/ds1-example)!
+If you want to run this program for yourself, here is the [solution code](ds1-example)!
 
 ## Problem to Solve - Previous and Next
 Right now, our Playlist class is not very functional. We can create a Playlist, sure, and
 can add songs to it, but we have no way of iterating through the playlist.
 
-For this problem, I want **you** to use the [starter code](/ds1-problem) as a starting
+For this problem, I want **you** to use the [starter code](ds1-problem) as a starting
 point in creating the `PlayNext` and `PlayPrevious` methods of the `Playlist` Class, so
 that we can iterate through the songs to play and go back through the songs already played.
 
@@ -233,6 +235,6 @@ variables provided. Try to get it so that all the test cases in the `Program` fi
 correct output (based on the comments following each line).
 
 Once you have worked on the code for a while or have come up with a solution to the problem,
-check your solution against [my solution](/ds1-problem-solution)!
+check your solution against [my solution](ds1-problem-solution)!
 
 Congratulations! You can now use Stacks in your daily life!

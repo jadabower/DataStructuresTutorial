@@ -1,0 +1,14 @@
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\bin\Debug\net7.0\ds2-problem.exe
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\bin\Debug\net7.0\ds2-problem.deps.json
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\bin\Debug\net7.0\ds2-problem.runtimeconfig.json
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\bin\Debug\net7.0\ds2-problem.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\bin\Debug\net7.0\ds2-problem.pdb
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\ds2-problem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\ds2-problem.AssemblyInfoInputs.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\ds2-problem.AssemblyInfo.cs
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\ds2-problem.csproj.CoreCompileInputs.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\ds2-problem.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\refint\ds2-problem.dll
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\ds2-problem.pdb
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\ds2-problem.genruntimeconfig.cache
+C:\Jada personal\Applied Programming\DataStructuresTutorial\DataStructuresTutorialProject\DataStructuresTutorial\ds2-problem\obj\Debug\net7.0\ref\ds2-problem.dll

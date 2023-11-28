@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ds2-example", "ds2-example\ds2-example.csproj", "{150D5070-11E3-40F9-B1F0-580446345C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ds2-problem", "ds2-problem\ds2-problem.csproj", "{9D3B0BBA-70E7-4FA2-8637-315D9A3781B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ds2-problem-solution", "ds2-problem-solution\ds2-problem-solution.csproj", "{737D212A-D41B-4049-A7DD-8EC91C2F2326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{150D5070-11E3-40F9-B1F0-580446345C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150D5070-11E3-40F9-B1F0-580446345C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150D5070-11E3-40F9-B1F0-580446345C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150D5070-11E3-40F9-B1F0-580446345C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3B0BBA-70E7-4FA2-8637-315D9A3781B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3B0BBA-70E7-4FA2-8637-315D9A3781B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3B0BBA-70E7-4FA2-8637-315D9A3781B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3B0BBA-70E7-4FA2-8637-315D9A3781B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737D212A-D41B-4049-A7DD-8EC91C2F2326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737D212A-D41B-4049-A7DD-8EC91C2F2326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737D212A-D41B-4049-A7DD-8EC91C2F2326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737D212A-D41B-4049-A7DD-8EC91C2F2326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

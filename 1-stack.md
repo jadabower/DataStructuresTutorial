@@ -26,7 +26,7 @@ add to the Stack (using Push) will be the last one you remove. Or that the
 item you Pushed most recently to the Stack will be the first one you remove.
 Because of this, this data structure is excellent at keeping information in
 the order that you added it. This is also useful for keeping track of where
-You are in the stack (which is often used in programming for keeping track of
+you are in the stack (which is often used in programming for keeping track of
 operations, and order in which to execute code).
 
 ## Methods

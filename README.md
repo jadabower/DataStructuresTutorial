@@ -12,7 +12,7 @@ My program consists of several Markdown files with the information on the data
 structures, as well as 3 C# Projects for each structure as some examples and problems
 for the user to look at and solve themselves.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/KdO15jO8FOA)
 
 # Development Environment
 
@@ -32,6 +32,8 @@ for the user to look at and solve themselves.
 - [Linked List methods (geeksforgeeks)](https://www.geeksforgeeks.org/c-sharp-linkedlist-class/)
 - [Inspiration repo](https://github.com/byui-cse212/final-project-jadabower)
 - [String Comparisons (javatpoint)](https://www.javatpoint.com/csharp-string-compare#:~:text=The%20C%23%20Compare()%20method,1%20else%20it%20returns%20%2D1.)
+- [BST Remove methodology(digitalocean)](https://www.digitalocean.com/community/tutorials/binary-search-tree-bst-search-insert-remove)
+- 
 
 # Future Work
 

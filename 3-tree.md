@@ -40,7 +40,7 @@ cards to explain more in depth:
 ## Cards Sorting Example
  
 To understand how to use the Binary Search Tree `Insert` function, I made 
-[this vide](https://youtu.be/1nyi1O2bMqs). Basically, we compare the node we want 
+[this video](https://youtu.be/1nyi1O2bMqs). Basically, we compare the node we want 
 to add to the Root of the tree. If the new node's data is smaller, try to insert the
 new value to the Left of the Root. If there is already a node there however, we just 
 call the `Insert` method again acting as if this node were the Root of the tree. If
